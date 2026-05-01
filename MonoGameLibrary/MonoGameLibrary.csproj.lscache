@@ -54,6 +54,7 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 [sourceFiles]
 Core.cs
 Graphics/
+ Sprite.cs
  TextureAtlas.cs
  TextureRegion.cs
 obj/Debug/net9.0/
