@@ -60,6 +60,8 @@ Graphics/
  Sprite.cs
  TextureAtlas.cs
  TextureRegion.cs
+ Tileset.cs
+ Timemap.cs
 Input/
  GamePadInfo.cs
  InputManager.cs
