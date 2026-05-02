@@ -72,6 +72,7 @@ Input/
 obj/Debug/net9.0/
  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
  MonoGameLibrary.AssemblyInfo.cs
+Scenes/Scene.cs
 
 [metadataReferences]
 <NUGET>/microsoft.netcore.app.ref/9.0.15/ref/net9.0/

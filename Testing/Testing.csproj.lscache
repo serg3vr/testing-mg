@@ -59,6 +59,9 @@ obj/Debug/net9.0/
  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
  Testing.AssemblyInfo.cs
 Program.cs
+Scenes/
+ GameScene.cs
+ TitleScene.cs
 
 [metadataReferences]
 ../MonoGameLibrary/obj/Debug/net9.0/ref/MonoGameLibrary.dll
