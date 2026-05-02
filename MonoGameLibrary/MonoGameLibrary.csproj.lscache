@@ -52,6 +52,7 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Circle.cs
 Core.cs
 Graphics/
  AnimatedSprite.cs
