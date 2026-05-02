@@ -56,14 +56,15 @@ Core.cs
 Graphics/
  AnimatedSprite.cs
  Animation.cs
+ Sprite.cs
+ TextureAtlas.cs
+ TextureRegion.cs
+Input/
  GamePadInfo.cs
  InputManager.cs
  KeyboardInfo.cs
  MouseButton.cs
  MouseInfo.cs
- Sprite.cs
- TextureAtlas.cs
- TextureRegion.cs
 obj/Debug/net9.0/
  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
  MonoGameLibrary.AssemblyInfo.cs
