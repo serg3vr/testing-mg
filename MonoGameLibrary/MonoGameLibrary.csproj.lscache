@@ -56,6 +56,11 @@ Core.cs
 Graphics/
  AnimatedSprite.cs
  Animation.cs
+ GamePadInfo.cs
+ InputManager.cs
+ KeyboardInfo.cs
+ MouseButton.cs
+ MouseInfo.cs
  Sprite.cs
  TextureAtlas.cs
  TextureRegion.cs
