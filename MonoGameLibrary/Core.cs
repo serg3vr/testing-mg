@@ -48,7 +48,7 @@ public class Core : Game
     /// </summary>
     public static bool ExitOnEscape { get; set; }
 
-        /// <summary>
+    /// <summary>
     /// Gets a reference to the audio control system.
     /// </summary>
     public static AudioController Audio { get; private set; }
@@ -113,11 +113,11 @@ public class Core : Game
         // Create a new input manager.
         Input = new InputManager();
 
-          // Create a new audio controller.
+        // Create a new audio controller.
         Audio = new AudioController();
     }
 
-        protected override void UnloadContent()
+    protected override void UnloadContent()
     {
         // Dispose of the audio controller.
         Audio.Dispose();
@@ -130,7 +130,7 @@ public class Core : Game
         // Update the input manager.
         Input.Update(gameTime);
 
-                // Update the audio controller.
+        // Update the audio controller.
         Audio.Update();
 
         if (ExitOnEscape && Input.Keyboard.IsKeyDown(Keys.Escape))
