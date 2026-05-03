@@ -1,6 +1,9 @@
 ﻿using Testing.Scenes;
-using Microsoft.Xna.Framework.Media;
+using Gum.Forms;
+using Gum.Forms.Controls;
 using MonoGameLibrary;
+using MonoGameGum;
+using Microsoft.Xna.Framework.Media;
 
 namespace Testing;
 
@@ -20,6 +23,10 @@ public class Game1 : Core
 
         // Start playing the background music.
         Audio.PlaySong(_themeSong);
+
+
+        // Initialize the Gum UI service
+        GumService.Default.Initialize(this);
 
         // Start the game with the title scene.
         ChangeScene(new TitleScene());
