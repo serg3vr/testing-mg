@@ -62,6 +62,9 @@ Program.cs
 Scenes/
  GameScene.cs
  TitleScene.cs
+UI/
+ AnimatedButton.cs
+ OptionSlider.cs
 
 [metadataReferences]
 ../MonoGameLibrary/obj/Debug/net9.0/ref/MonoGameLibrary.dll
