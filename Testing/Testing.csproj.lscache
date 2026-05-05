@@ -55,6 +55,10 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 
 [sourceFiles]
 Game1.cs
+GameController.cs
+GameObjects/
+ Bat.cs
+ Slime.cs
 obj/Debug/net9.0/
  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
  Testing.AssemblyInfo.cs
@@ -62,8 +66,10 @@ Program.cs
 Scenes/
  GameScene.cs
  TitleScene.cs
+SlimeSegment.cs
 UI/
  AnimatedButton.cs
+ GameSceneUI.cs
  OptionSlider.cs
 
 [metadataReferences]
