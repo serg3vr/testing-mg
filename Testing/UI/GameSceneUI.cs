@@ -61,15 +61,10 @@ public class GameSceneUI : ContainerRuntime
         // Add it to the root element.
         this.AddToRoot();
 
-        // Get a reference to the content manager that was registered with the
-        // GumService when it was original initialized.
-        ContentManager content = GumService.Default.ContentLoader.XnaContentManager;
-
-        // Use that content manager to load the sound effect and atlas for the
+        // Use Core.Content to load the sound effect and atlas for the
         // user interface elements
-        // _uiSoundEffect = content.Load<SoundEffect>("audio/ui");
         _uiSoundEffect = Core.Content.Load<SoundEffect>("audio/ui");
-        TextureAtlas atlas = TextureAtlas.FromFile(content, "images/atlas-definition.xml");
+        TextureAtlas atlas = TextureAtlas.FromFile(Core.Content, "images/atlas-definition.xml");
 
         // Create the text that will display the players score and add it as
         // a child to this container.
