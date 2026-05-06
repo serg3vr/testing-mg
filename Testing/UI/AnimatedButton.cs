@@ -29,9 +29,9 @@ internal class AnimatedButton : Button
         // controls-specific properties.
         ButtonVisual buttonVisual = (ButtonVisual)Visual;
         // Width is relative to children with extra padding, height is fixed
-        buttonVisual.Height = 14f;
+        buttonVisual.Height = 14f * 2;
         buttonVisual.HeightUnits = DimensionUnitType.Absolute;
-        buttonVisual.Width = 21f;
+        buttonVisual.Width = 21f * 2;
         buttonVisual.WidthUnits = DimensionUnitType.RelativeToChildren;
 
         // Get a reference to the nine-slice background to display the button graphics
@@ -49,7 +49,7 @@ internal class AnimatedButton : Button
         textInstance.Red = 70;
         textInstance.UseCustomFont = true;
         textInstance.CustomFontFile = "fonts/04b_30.fnt";
-        textInstance.FontScale = 0.25f;
+        textInstance.FontScale = 0.25f * 2;
         textInstance.Anchor(Gum.Wireframe.Anchor.Center);
         textInstance.Width = 0;
         textInstance.WidthUnits = DimensionUnitType.RelativeToChildren;

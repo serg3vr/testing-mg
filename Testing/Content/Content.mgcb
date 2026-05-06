@@ -37,6 +37,12 @@
 /processorParam:Quality=Best
 /build:audio/ui.wav
 
+#begin effects/grayscaleEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:effects/grayscaleEffect.fx
+
 #begin fonts/04B_30_5x.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
@@ -58,8 +64,15 @@
 /copy:images/atlas-definition.xml
 
 #begin images/atlas.png
-/importer:
-/processor:
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
 /build:images/atlas.png
 
 #begin images/background-pattern.png

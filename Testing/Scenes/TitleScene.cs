@@ -198,7 +198,7 @@ public class TitleScene : Scene
         startButton.Anchor(Gum.Wireframe.Anchor.BottomLeft);
         startButton.X = 50;
         startButton.Y = -12;
-        startButton.Width = 70;
+        startButton.Width = 170;
         startButton.Text = "Start";
         startButton.Click += HandleStartClicked;
         _titleScreenButtonsPanel.AddChild(startButton);
